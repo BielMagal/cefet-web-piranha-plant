@@ -1,0 +1,54 @@
+p {
+  font-family: "Arial", sans-serif;
+  text-align: justify;   /* left, right, justify */
+}
+
+body {
+  /* imagem de fundo para a página */
+  background-image: url(../imagens/fundo.png);
+
+  /* faz o conteúdo da página começar a 10%
+    da largura lateralmente */
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 690px;
+}
+
+/* coloca uma borda azul em toda <img> */
+img {
+  border: 4px solid limegreen; /* azul, sólida, de 1px */
+}
+
+/* muda a cor de todos <h1></h1> e <h2></h2> */
+h1{
+  font-family: "Times New Roman";
+  color: limegreen;   /* cor do texto: marrom */
+  font-size: 28px;
+}
+h2 {
+  font-family: "Times New Roman";
+  color: limegreen;   /* cor do texto: marrom */
+  font-size: 24px;
+}
+
+table {
+  /* tira espaço entre as bordas */
+  border-collapse: collapse;
+  font-family: "Times New Roman";
+
+  /* centraliza a tabela e define uma largura */
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  border: 2px solid silver;
+}
+
+td, th {
+  border: 2px solid silver;
+}
+
+blockquote, q{
+  font-style: italic;
+  text-align: justify;   /* left, right, justify */
+}
